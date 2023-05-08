@@ -1,0 +1,66 @@
+** start of undefined **
+
+<!DOCTYPE html>
+   <html>
+    <link rel="stylesheet" href="styles.css"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <main id="main">
+       <h1 id="title">Keith Gordon Green</h1>
+       <p class="intro">A man who kept his eyes to heaven</p>
+       <div id="img-div">
+ <center><img src="https://escapetoreality.files.wordpress.com/2010/07/keith_green.jpg" id="image" height="auto"></center>
+ <figcaption id="img-caption"> <p> A side profile picture of Mr Green</p></figcaption>
+         </div> 
+          <h2>No compromise</h2>
+          <section id="tribute-info">
+ </p>This life is so full of distractions, it's hard not to lose track of the way. Keith Green was no super man nor was he perfect, but by gum, no one can say the man didn't strive to live uncopromisingly for the God he loved.</p>
+ </p>He lived to serve. He did not care for money or for fame nor for a fandom or a record deal. His heart and mind were focused on christ and the creation he died for.<p>
+   <p>He's music was his medium, his sermon to the mases. The urgency to him of sharing the gospel was so great that he made his concerts free because what mattered most was not the money that could be made but the hearts that could be touched.
+   </p>
+   <p>All of this not so people would look at him and say, "Wow what a great guy!" But so they would wonder, "What makes him he like this?"</p> 
+   <hr>
+   <p>Look beyond the man and see the God who is and made him be. <p/>
+          <hr>
+          </section> 
+         <h3 class="more">To learn more about Mr Green click <a href="https://www.lastdaysministries.org/Groups/1000008700/Last_Days_Ministries/Keith_Green/Bio/Bio.aspx" target="_blank" id="tribute-link"> here</a></h3>
+       </main>
+     </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1487147264018-f937fba0c817?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OXwyMjg2MzB8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60) ;
+}
+h1 {
+  display: block;
+  font-size: 50px;
+ text-align: center;
+}
+.intro {
+  text-align: center;
+  font-size:25px;
+}
+img {
+display: block; 
+max-width: 100%; 
+margin-left: auto;
+margin-right: auto;
+}
+figcaption {
+  text-align: center;
+}
+section {
+  font-size: 25px;
+  color: black;
+  
+}
+.more {
+  font-size:20px;
+  font-style: bold;
+}
+
+
+** end of undefined **
+

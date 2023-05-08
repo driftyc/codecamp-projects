@@ -1,0 +1,125 @@
+** start of undefined **
+
+<!DOCTYPE html>
+  <html>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<body> 
+ <header>
+  <h1 id="title"> Stupefy Survey Form </h1> 
+ </header> 
+   <p id="description" class="description"> 
+     Thank you for taking the time to help me out
+     </p>
+     <div>
+  <form action= "submit data" id="survey-form">
+    <section class= "wee">
+     <label id="name-label" for="name">Name</label><br/>
+       <input type= "text" placeholder="Enter your name" id= "name" required>
+   </section> 
+    <section class="wee">
+     <label id="email-label" for="email">Email</label><br/>
+   <input type= "email" placeholder="Enter your email" id="email"required>
+   </section> 
+  <section class= "wee" >
+<label id="number-label" for="age">Age</label><br/>
+   <input type= "number" placeholder="Age" id="number" min="0" max="120">
+   </section > 
+   <p>How did you find out about this blog?</p>
+ <label for="dropdown"></label> 
+ <select name="Reach-querry" id="dropdown"> 
+   <option value="friends">Friends</option value>
+   <option value="family">Family</option value>
+   <option value="ads">Ads</option value>
+   <option value="other">Other</option value>
+   </select>
+   <p> Would you recomend this site any else?</p>
+   <label for="recomendation">
+     <input id="recomendation" type="radio" name="yes-no" value="yes"> Yes </label> <br/>
+    <label for="recomendation"> <input id="recomendation" type="radio" name="yes-no" value="no">No
+   </label >
+<P class="options"> Please select the options that apply to how this content made you feel.</p>
+<label for="offended"> <input id="offended" value="offended"  type="checkbox" name="feeling">Offended</label> <br/>
+<label for="intrigued"> <input id="intrigued" value="intigued" type="checkbox" name="feeling"> Intrigued </label> <br/>
+<label for="concurent"> <input id="concurent" value="concurent" type="checkbox" name="feeling">Concurent</label> <br/>
+<label for="nothing"> <input id="nothing" value="nothing"  type="checkbox" name="feeling">Nothing</label>
+<p class="comments"> Any additional comments or suggesions?</p>
+<textarea placeholder="Enter comment here.." class="box"></textarea> <br/>
+<button type="submit" id="submit"> Submit</button> 
+</form>
+</div> 
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  text-align: center;  
+}
+.description {
+  text-align: center;
+  font-size:18px;
+  font-style: italic;
+  color: white;
+}
+body{
+  background: linear-gradient(40deg, #877B6F,#E2903D,#ED8312)
+}
+div {
+text-align: left;
+font-size: 20px;
+color: #37210C;
+background-color:  #E8C69B; 
+margin-left: auto;
+margin-right: auto;
+padding: 30px; 
+opacity: 0.8;
+max-width: 500px; 
+}
+.wee {
+  padding-top: 5px;
+  padding-bottom:10px;
+}
+.options{
+  margin-left: 5px;
+}
+.comments {
+  margin-left:4px;
+  margin-top: 10px;
+}
+.box{
+  margin-top: -10px;
+  margin-left: 25px;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+#submit {
+  border-radius:10px;
+  border-color:white;
+  background-color: lightgray;
+  margin-top: 20px;
+  margin-left:150px;
+  margin-right:150px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#submit:hover {
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards; 
+}
+@keyframes background-color {
+  100% { 
+   background-color:#E2903D;
+ } 
+}
+   
+
+  
+
+** end of undefined **
+
